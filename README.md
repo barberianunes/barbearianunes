@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -61,7 +61,11 @@
 
   <h1>Ficha de Anamnese</h1>
 
-  <form action="https://formspree.io/f/SEU_ENDPOINT_AQUI" method="POST">
+  <form action="https://formsubmit.co/barbearianunes132@gmail.com" method="POST">
+    <!-- Campos ocultos do FormSubmit -->
+    <input type="hidden" name="_next" value="https://barberianunes.github.io/barbearianunes/obrigado.html">
+    <input type="hidden" name="_captcha" value="false">
+
     <label>Nome: <input type="text" name="nome" required></label>
     <label>Data de nascimento: <input type="date" name="data_nascimento"></label>
     <label>RG: <input type="text" name="rg"></label>
